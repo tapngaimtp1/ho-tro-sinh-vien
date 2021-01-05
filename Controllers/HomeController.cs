@@ -94,7 +94,7 @@ namespace HoTroSinhVien.Controllers // MENU
                 }
                 else
                 {
-                    ViewBag.error = "Tai khoản này đã trùng";
+                    ViewBag.error = "Tai khoản này đã trùng";//cmt linh tinh
                     return View();
                 }
             }
