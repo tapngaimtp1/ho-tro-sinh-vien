@@ -88,7 +88,7 @@ namespace HoTroSinhVien.Controllers // MENU
                 var check = DB.DangNhaps.FirstOrDefault(s => s.TaiKhoan == _user.TaiKhoan);
                 if (check == null)
                 {
-                    DB.DangNhaps.Add(_user);
+                    DB.DangNhaps.Add(_user);//abc
                     DB.SaveChanges();
                     return RedirectToAction("DangNhap");//login
                 }
