@@ -90,7 +90,7 @@ namespace HoTroSinhVien.Controllers // MENU
                 {
                     DB.DangNhaps.Add(_user);
                     DB.SaveChanges();
-                    return RedirectToAction("DangNhap");
+                    return RedirectToAction("DangNhap");//login
                 }
                 else
                 {
